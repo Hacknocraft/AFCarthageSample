@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AppFriendsUI
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +16,21 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+
+        AppFriendsUI.sharedInstance.initialize("5VydljIQiL47x5CQBNH9qwtt", secret: "5bTxyqjsdzGTJLUgW5wiQgtt") { (success, error) in
+
+            if !success {
+                NSLog("error: %@", error?.localizedDescription ?? "")
+            } else {
+                AFSession.login(username: "RandomUser", userID: "RandomUserID") { (_, error) in
+
+                    if error == nil {
+                        NSLog("error: %@", error?.localizedDescription ?? "")
+                    }
+                }
+            }
+        }
+
         return true
     }
 

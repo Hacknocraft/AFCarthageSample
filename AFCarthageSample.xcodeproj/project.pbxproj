@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF05C71D1EBA4A7900445803 /* AppFriendsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF05C71B1EBA34E200445803 /* AppFriendsUI.framework */; };
+		AF05C71F1EBA4D8900445803 /* SlackTextViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF05C71E1EBA4D8900445803 /* SlackTextViewController.framework */; };
+		AF05C7421EBAEDF700445803 /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF05C7411EBAEDF700445803 /* AlamofireImage.framework */; };
+		AF05C7441EBAEE3500445803 /* JGProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF05C7431EBAEE3500445803 /* JGProgressHUD.framework */; };
+		AFD902F61EAD21D300A0025F /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD902EE1EAD21D300A0025F /* Alamofire.framework */; };
+		AFD902F71EAD21D300A0025F /* AppFriendsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD902EF1EAD21D300A0025F /* AppFriendsCore.framework */; };
+		AFD902F81EAD21D300A0025F /* Base64.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD902F01EAD21D300A0025F /* Base64.framework */; };
+		AFD902F91EAD21D300A0025F /* Cloudinary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD902F11EAD21D300A0025F /* Cloudinary.framework */; };
+		AFD902FA1EAD21D300A0025F /* CoreStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD902F21EAD21D300A0025F /* CoreStore.framework */; };
+		AFD902FC1EAD21D300A0025F /* JWT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD902F41EAD21D300A0025F /* JWT.framework */; };
+		AFD902FD1EAD21D300A0025F /* SocketIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFD902F51EAD21D300A0025F /* SocketIO.framework */; };
+		AFEDE9441EAAF809008F0DDC /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = AFEDE9431EAAF809008F0DDC /* Cartfile */; };
 		AFF0548C1EA930C100B4CD57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0548B1EA930C100B4CD57 /* AppDelegate.swift */; };
 		AFF0548E1EA930C100B4CD57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF0548D1EA930C100B4CD57 /* ViewController.swift */; };
 		AFF054911EA930C100B4CD57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF0548F1EA930C100B4CD57 /* Main.storyboard */; };
@@ -34,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF05C71B1EBA34E200445803 /* AppFriendsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppFriendsUI.framework; path = Carthage/Build/iOS/AppFriendsUI.framework; sourceTree = "<group>"; };
+		AF05C71E1EBA4D8900445803 /* SlackTextViewController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SlackTextViewController.framework; path = Carthage/Build/iOS/SlackTextViewController.framework; sourceTree = "<group>"; };
+		AF05C7411EBAEDF700445803 /* AlamofireImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AlamofireImage.framework; path = Carthage/Build/iOS/AlamofireImage.framework; sourceTree = "<group>"; };
+		AF05C7431EBAEE3500445803 /* JGProgressHUD.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JGProgressHUD.framework; path = Carthage/Build/iOS/JGProgressHUD.framework; sourceTree = "<group>"; };
+		AFD902EE1EAD21D300A0025F /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		AFD902EF1EAD21D300A0025F /* AppFriendsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppFriendsCore.framework; path = Carthage/Build/iOS/AppFriendsCore.framework; sourceTree = "<group>"; };
+		AFD902F01EAD21D300A0025F /* Base64.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Base64.framework; path = Carthage/Build/iOS/Base64.framework; sourceTree = "<group>"; };
+		AFD902F11EAD21D300A0025F /* Cloudinary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cloudinary.framework; path = Carthage/Build/iOS/Cloudinary.framework; sourceTree = "<group>"; };
+		AFD902F21EAD21D300A0025F /* CoreStore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreStore.framework; path = Carthage/Build/iOS/CoreStore.framework; sourceTree = "<group>"; };
+		AFD902F41EAD21D300A0025F /* JWT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JWT.framework; path = Carthage/Build/iOS/JWT.framework; sourceTree = "<group>"; };
+		AFD902F51EAD21D300A0025F /* SocketIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SocketIO.framework; path = Carthage/Build/iOS/SocketIO.framework; sourceTree = "<group>"; };
+		AFEDE9431EAAF809008F0DDC /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		AFF054881EA930C100B4CD57 /* AFCarthageSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AFCarthageSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFF0548B1EA930C100B4CD57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFF0548D1EA930C100B4CD57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +78,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF05C71D1EBA4A7900445803 /* AppFriendsUI.framework in Frameworks */,
+				AFD902F71EAD21D300A0025F /* AppFriendsCore.framework in Frameworks */,
+				AF05C71F1EBA4D8900445803 /* SlackTextViewController.framework in Frameworks */,
+				AFD902F61EAD21D300A0025F /* Alamofire.framework in Frameworks */,
+				AF05C7421EBAEDF700445803 /* AlamofireImage.framework in Frameworks */,
+				AFD902F81EAD21D300A0025F /* Base64.framework in Frameworks */,
+				AFD902F91EAD21D300A0025F /* Cloudinary.framework in Frameworks */,
+				AFD902FA1EAD21D300A0025F /* CoreStore.framework in Frameworks */,
+				AFD902FC1EAD21D300A0025F /* JWT.framework in Frameworks */,
+				AFD902FD1EAD21D300A0025F /* SocketIO.framework in Frameworks */,
+				AF05C7441EBAEE3500445803 /* JGProgressHUD.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +109,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AFEDE9401EAACC46008F0DDC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF05C7431EBAEE3500445803 /* JGProgressHUD.framework */,
+				AF05C7411EBAEDF700445803 /* AlamofireImage.framework */,
+				AF05C71E1EBA4D8900445803 /* SlackTextViewController.framework */,
+				AF05C71B1EBA34E200445803 /* AppFriendsUI.framework */,
+				AFD902EE1EAD21D300A0025F /* Alamofire.framework */,
+				AFD902EF1EAD21D300A0025F /* AppFriendsCore.framework */,
+				AFD902F01EAD21D300A0025F /* Base64.framework */,
+				AFD902F11EAD21D300A0025F /* Cloudinary.framework */,
+				AFD902F21EAD21D300A0025F /* CoreStore.framework */,
+				AFD902F41EAD21D300A0025F /* JWT.framework */,
+				AFD902F51EAD21D300A0025F /* SocketIO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AFF0547F1EA930C100B4CD57 = {
 			isa = PBXGroup;
 			children = (
+				AFEDE9431EAAF809008F0DDC /* Cartfile */,
 				AFF0548A1EA930C100B4CD57 /* AFCarthageSample */,
 				AFF0549F1EA930C100B4CD57 /* AFCarthageSampleTests */,
 				AFF054AA1EA930C200B4CD57 /* AFCarthageSampleUITests */,
 				AFF054891EA930C100B4CD57 /* Products */,
+				AFEDE9401EAACC46008F0DDC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +190,7 @@
 				AFF054841EA930C100B4CD57 /* Sources */,
 				AFF054851EA930C100B4CD57 /* Frameworks */,
 				AFF054861EA930C100B4CD57 /* Resources */,
+				AFF054C31EA9337A00B4CD57 /* Carthage */,
 			);
 			buildRules = (
 			);
@@ -237,6 +293,7 @@
 			files = (
 				AFF054961EA930C100B4CD57 /* LaunchScreen.storyboard in Resources */,
 				AFF054931EA930C100B4CD57 /* Assets.xcassets in Resources */,
+				AFEDE9441EAAF809008F0DDC /* Cartfile in Resources */,
 				AFF054911EA930C100B4CD57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +313,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AFF054C31EA9337A00B4CD57 /* Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/AppFriendsCore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Cloudinary.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/CoreStore.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JWT.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SocketIO.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Base64.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AppFriendsUI.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SlackTextViewController.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/AlamofireImage.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/JGProgressHUD.framework",
+			);
+			name = Carthage;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AFF054841EA930C100B4CD57 /* Sources */ = {
@@ -416,10 +501,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BL6PZ96S5P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AFCarthageSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hacknocraft.AFCarthageSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -429,6 +519,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BL6PZ96S5P;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = AFCarthageSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hacknocraft.AFCarthageSample;
@@ -514,6 +608,7 @@
 				AFF054B21EA930C200B4CD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFF054B31EA930C200B4CD57 /* Build configuration list for PBXNativeTarget "AFCarthageSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +617,7 @@
 				AFF054B51EA930C200B4CD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFF054B61EA930C200B4CD57 /* Build configuration list for PBXNativeTarget "AFCarthageSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +626,7 @@
 				AFF054B81EA930C200B4CD57 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
